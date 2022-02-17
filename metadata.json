@@ -16,7 +16,8 @@
   "abstract": {
     "Purpose": "A half-baked experiemnt on trying to construct a food web for Tatooine using real world data.",
     "Motivation": "I'm going through a Star Wars moment™.",
-    "Concept": "Take a species list for Tatooine, assign some traits and use that as the transfer medium from real-world trait and interaction data.",
+    "Conceptally": "What if we're dealing with realy poor data coveragw for a location can we still salvage *something*",
+    "Plan": "Take a species list for Tatooine, assign some traits and use that as the transfer medium from real-world trait and interaction data.",
     "Outcome?": "Maybe we can also identify some missing species based on trophic levels/links are missing",
     "Challenges": "What to treat as a complete species list for Tatooine, reconciling the fact that species were developed based on 'narrative need' as opposed to 'ecologcal need"
   },
