@@ -1,119 +1,127 @@
 [
     {
-        "DOI": "10.1002/jez.1400610202",
+        "DOI": "10.1111/ecog.06089",
         "author": [
             {
-                "family": "Allee",
-                "given": "W. C."
+                "family": "Llewelyn",
+                "given": "John"
             },
             {
-                "family": "Bowen",
-                "given": "Edith S."
-            }
-        ],
-        "container-title": "Journal of Experimental Zoology",
-        "id": "Allee1932StuAni",
-        "issue": "2",
-        "issued": {
-            "date-parts": [
-                [
-                    1932,
-                    2
-                ]
-            ]
-        },
-        "page": "185-207",
-        "title": "Studies in animal aggregations: Mass protection against colloidal silver among goldfishes",
-        "type": "article-journal",
-        "volume": "61"
-    },
-    {
-        "author": [
-            {
-                "family": "Camerano",
-                "given": "Lorenzo"
-            }
-        ],
-        "container-title": "Atti Della R. Accad. Delle Sci. Torino",
-        "id": "Camerano1880EquViv",
-        "issued": {
-            "date-parts": [
-                [
-                    1880
-                ]
-            ]
-        },
-        "page": "393-414",
-        "title": "Dell\u2019equilibrio dei viventi merce la reciproca distruzione",
-        "type": "article-journal",
-        "volume": "15"
-    },
-    {
-        "author": [
-            {
-                "family": "Elton",
-                "given": "Charles S"
-            }
-        ],
-        "id": "Elton1927AniEco",
-        "issued": {
-            "date-parts": [
-                [
-                    1927
-                ]
-            ]
-        },
-        "publisher": "University of Chicago Press",
-        "title": "Animal ecology",
-        "type": "book"
-    },
-    {
-        "author": [
-            {
-                "family": "Fahrenholz",
-                "given": "H."
-            }
-        ],
-        "container-title": "Zool. Anz.",
-        "id": "Fahrenholz1913EctUnd",
-        "issued": {
-            "date-parts": [
-                [
-                    1913
-                ]
-            ]
-        },
-        "page": "371-374",
-        "title": "Ectoparasiten und abstammungslehre",
-        "type": "article-journal",
-        "volume": "41"
-    },
-    {
-        "DOI": "10.1111/j.1096-3642.1935.tb01680.x",
-        "author": [
-            {
-                "family": "Nicholson",
-                "given": "A. J."
+                "family": "Strona",
+                "given": "Giovanni"
             },
             {
-                "family": "Bailey",
-                "given": "V. A."
+                "family": "McDowell",
+                "given": "Matthew C."
+            },
+            {
+                "family": "Johnson",
+                "given": "Christopher N."
+            },
+            {
+                "family": "Peters",
+                "given": "Katharina J."
+            },
+            {
+                "family": "Stouffer",
+                "given": "Daniel B."
+            },
+            {
+                "family": "Visser",
+                "given": "Sara N.",
+                "non-dropping-particle": "de"
+            },
+            {
+                "family": "Saltr\u00e9",
+                "given": "Fr\u00e9d\u00e9rik"
+            },
+            {
+                "family": "Bradshaw",
+                "given": "Corey J. A."
             }
         ],
-        "container-title": "Proceedings of the Zoological Society of London",
-        "id": "Nicholson1935BalAni",
-        "issue": "3",
+        "container-title": "Ecography",
+        "id": "Llewelyn2021SahMeg",
+        "issue": "n/a",
         "issued": {
             "date-parts": [
                 [
-                    1935,
-                    9
+                    2021
                 ]
             ]
         },
-        "page": "551-598",
-        "title": "The Balance of Animal Populations.Part I.",
+        "title": "Sahul\u2019s megafauna were vulnerable to plant-community changes due to their position in the trophic network",
         "type": "article-journal",
-        "volume": "105"
+        "volume": "n/a"
+    },
+    {
+        "DOI": "10.32942/osf.io/y7sdz",
+        "author": [
+            {
+                "family": "Strydom",
+                "given": "Tanya"
+            },
+            {
+                "family": "Bouskila",
+                "given": "Salom\u00e9"
+            },
+            {
+                "family": "Banville",
+                "given": "Francis"
+            },
+            {
+                "family": "Barros",
+                "given": "Cerres"
+            },
+            {
+                "family": "Caron",
+                "given": "Dominique"
+            },
+            {
+                "family": "Farrell",
+                "given": "Maxwell J."
+            },
+            {
+                "family": "Fortin",
+                "given": "Marie-Jos\u00e9e"
+            },
+            {
+                "family": "Hemming",
+                "given": "Victoria"
+            },
+            {
+                "family": "Mercier",
+                "given": "Benjamin"
+            },
+            {
+                "family": "Pollock",
+                "given": "Laura"
+            },
+            {
+                "family": "Runghen",
+                "given": "Rogini"
+            },
+            {
+                "family": "Riva",
+                "given": "Giulio Valentino Dalla"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            }
+        ],
+        "id": "Strydom2021FooWeb",
+        "issued": {
+            "date-parts": [
+                [
+                    2021,
+                    8,
+                    12
+                ]
+            ]
+        },
+        "publisher": "EcoEvoRxiv",
+        "title": "Food web reconstruction through phylogenetic transfer of low-rank network representation",
+        "type": "article-journal"
     }
 ]

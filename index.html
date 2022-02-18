@@ -270,7 +270,7 @@
             [title:fold:nopunctordash:skipwords:lower:select=2,2:substring=1,3:capitalize]</code></pre>
             <p>It is a good idea to configure Better BibTeX to auto-export on change, and to remove a lot of fields that are not strictly speaking required for references. The list of fields we usually ignore is:</p>
             <pre><code>abstract,copyright,annotation,file,pmid,month,shorttitle,keywords</code></pre>
-            <p>The citations are done using the normal markdown syntax, where <code>@Elton1927AniEco</code> produces <span class="citation" data-cites="Elton1927AniEco">Elton (1927)</span>, and <code>[@Camerano1880EquViv]</code> produces <span class="citation" data-cites="Camerano1880EquViv">(Camerano 1880)</span>.</p>
+            <p>The citations are done using the normal markdown syntax, where <code>@Elton1927AniEco</code> produces <span class="citation" data-cites="Elton1927AniEco">(<strong>Elton1927AniEco?</strong>)</span>, and <code>[@Camerano1880EquViv]</code> produces <span class="citation" data-cites="Camerano1880EquViv">(<strong>Camerano1880EquViv?</strong>)</span>.</p>
             <h1 id="figures-tables-and-other-floats">Figures, Tables, and other floats</h1>
             <p>Note that you can wrap the text of legends for both figures and tables. This avoids the issue of having very long lines.</p>
             <h2 id="mathematics">Mathematics</h2>
@@ -336,15 +336,7 @@
             <p>The phylogenetic reconstruction of <span class="math inline">$\hat{\mathscr{L}}$</span> and <span class="math inline">$\hat{\mathscr{R}}$</span> has an associated uncertainty, represented by the breadth of the uniform distribution associated to each of their entries. Therefore, we can use this information to assemble a <em>probabilistic</em> metaweb in the sense of <span class="citation" data-cites="Poisot2016StrPro">(<strong>Poisot2016StrPro?</strong>)</span>, <em>i.e.</em> in which every interaction is represented as a single, independent, Bernoulli event of probability <span class="math inline"><em>p</em></span>.</p>
             <p>Specifically, we have adopted the following approach. For every entry in <span class="math inline">$\hat{\mathscr{L}}$</span> and <span class="math inline">$\hat{\mathscr{R}}$</span>, we draw a value from its distribution. This results in one instance of the possible left (<span class="math inline">$\hat{\mathscr{l}}$</span>) and right (<span class="math inline">$\hat{\mathscr{r}}$</span>) subspaces for the Canadian metaweb. These can be multiplied, to produce one matrix of real values. Because the entries in <span class="math inline">$\hat{\mathscr{l}}$</span> and <span class="math inline">$\hat{\mathscr{r}}$</span> are in the same space where <span class="math inline">ℒ</span> and <span class="math inline">ℛ</span> were originally predicted, it follows that the threshold <span class="math inline"><em>ρ</em></span> estimated for the European metaweb also applies. We use this information to produce one random Canadian metaweb, <span class="math inline">$N = \hat{\mathscr{L}}$</span><span class="math inline">$\hat{\mathscr{R}}' \ge \rho$</span>.</p>
             <p>Because the intervals around some trait values can be broad <span class="citation" data-cites="Garland1999IntPhy">(in fact, probably broader than what they would actually be, see <em>e.g.</em> <strong>Garland1999IntPhy?</strong>)</span>, we repeat the above process <span class="math inline">2 × 10<sup>5</sup></span> times, which results in a probabilistic metaweb <span class="math inline"><em>P</em></span>, where the probability of an interaction (here conveying our degree of trust that it exists given the inferred trait distributions) is given by the number of times where it appears across all random draws <span class="math inline"><em>N</em></span>, divided by the number of samples. An interaction with <span class="math inline"><em>P</em><sub><em>i</em>, <em>j</em></sub> = 1</span> means that these two species were predicted to interact in all <span class="math inline">2 × 10<sup>5</sup></span> random draws, etc..</p>
-            <h1 class="unnumbered" id="references">References</h1>
-            <div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-            <div id="ref-Camerano1880EquViv" class="csl-entry" role="doc-biblioentry">
-            Camerano, L. (1880). Dell’equilibrio dei viventi merce la reciproca distruzione. <em>Atti Della R. Accad. Delle Sci. Torino</em>, 15, 393–414.
-            </div>
-            <div id="ref-Elton1927AniEco" class="csl-entry" role="doc-biblioentry">
-            Elton, C.S. (1927). <em>Animal ecology</em>. University of Chicago Press.
-            </div>
-            </div>
+            <h1 id="references">References</h1>
         </article>
     </main>
 
